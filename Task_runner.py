@@ -6,5 +6,6 @@ ulist = list(map(int, input().strip().split(' ')))
 
 print(ulist)
 #SortHelper.BubbleSort(ulist)
-SortHelper.SelectionSort(ulist)
+#SortHelper.SelectionSort(ulist)
+SortHelper.QuickSort(ulist)
 print(ulist)
